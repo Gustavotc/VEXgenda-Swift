@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.4.3)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (6.3.0)
+  - ObjectMapper (3.5.3)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - Realm (10.8.1):
+    - Realm/Headers (= 10.8.1)
+  - Realm/Headers (10.8.1)
+  - RealmSwift (10.8.1):
+    - Realm (= 10.8.1)
+  - TLCustomMask (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 6.0)
+  - ObjectMapper (~> 3.5)
+  - PromiseKit (~> 6.8)
+  - RealmSwift (~> 10)
+  - TLCustomMask
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - ObjectMapper
+    - PromiseKit
+    - Realm
+    - RealmSwift
+    - TLCustomMask
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  Realm: a2db54d9dcceddeba936b429f5b3d6610a109686
+  RealmSwift: 2a3c75ecbf5a3b04080ff5f6f0554cf6337b4764
+  TLCustomMask: 32bcd873851167c2d2a3726b048766b737873710
+
+PODFILE CHECKSUM: 223aa66f67516e303f344111387e83de5090952b
+
+COCOAPODS: 1.10.1
