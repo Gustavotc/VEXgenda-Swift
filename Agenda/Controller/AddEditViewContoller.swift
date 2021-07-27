@@ -207,12 +207,17 @@ class AddEditViewContoller: UIViewController {
         
         tableView.reloadData()
         
-        if let url = URL(string: contact.photo ?? "") {
-            ivPhoto.kf.indicatorType = .activity
-            ivPhoto.kf.setImage(with: url)
+        if contact.imageName != nil {
+            if let image = ImageManager.findImageWithName(name: contact.imageName) {
+                ivPhoto.image = image
+            }
         } else {
-            ivPhoto.image = nil
+            if let url = URL(string: contact.photo ?? "") {
+                ivPhoto.kf.indicatorType = .activity
+                ivPhoto.kf.setImage(with: url)
+            }
         }
+
     }
     
     //MARK:- VALIDATE CONTACT INFOS

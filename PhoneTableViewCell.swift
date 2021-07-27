@@ -65,10 +65,10 @@ extension PhoneTableViewCell: UITextFieldDelegate {
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        phoneMask.formattingPattern = "($$) $$$$-$$$$"
+        phoneMask.formattingPattern = "($$) $$$$$-$$$$"
       
-        if textField.text!.count > 13 {
-            phoneMask.formattingPattern = "($$) $$$$$-$$$$"
+        if textField.text!.count == 13 {
+            phoneMask.formattingPattern = "($$) $$$$-$$$$"
         }
         
         tfPhone.text = phoneMask.formatStringWithRange(range: range, string: string)

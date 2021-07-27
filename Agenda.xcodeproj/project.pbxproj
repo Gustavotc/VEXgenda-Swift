@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2505C571269766D600696337 /* CustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2505C570269766D600696337 /* CustomObject.swift */; };
 		2518C6042694B2F600892097 /* AddEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2518C6032694B2F600892097 /* AddEditViewModel.swift */; };
+		2520EB3F26A8582E0046D206 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2520EB3E26A8582E0046D206 /* CustomTextField.swift */; };
 		252FDF6D267BC8E500A7765F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252FDF6C267BC8E500A7765F /* AppDelegate.swift */; };
 		252FDF6F267BC8E500A7765F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252FDF6E267BC8E500A7765F /* SceneDelegate.swift */; };
 		252FDF74267BC8E500A7765F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252FDF72267BC8E500A7765F /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		2505C570269766D600696337 /* CustomObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomObject.swift; sourceTree = "<group>"; };
 		2518C6032694B2F600892097 /* AddEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewModel.swift; sourceTree = SOURCE_ROOT; };
+		2520EB3E26A8582E0046D206 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		252FDF69267BC8E500A7765F /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		252FDF6C267BC8E500A7765F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		252FDF6E267BC8E500A7765F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				25E6C7FE26939A4F00703C7D /* Globals.swift */,
 				2505C570269766D600696337 /* CustomObject.swift */,
+				2520EB3E26A8582E0046D206 /* CustomTextField.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				25E6C7FD2693990A00703C7D /* PhoneTableViewCell.swift in Sources */,
 				253CE2ED2683BE5E00D380DA /* UserData.swift in Sources */,
 				2570EBC4267CFC9C0029B55F /* Contact.swift in Sources */,
+				2520EB3F26A8582E0046D206 /* CustomTextField.swift in Sources */,
 				252FDF6D267BC8E500A7765F /* AppDelegate.swift in Sources */,
 				25E6C7FF26939A4F00703C7D /* Globals.swift in Sources */,
 				252FDF84267BDC4C00A7765F /* AddEditViewContoller.swift in Sources */,
