@@ -5,8 +5,6 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=4895ef&labelColor=0A1033">
 
-![cover](.github/cover.png?style=flat)
-
 ##  📱 Preview
 ![1](https://user-images.githubusercontent.com/65514572/148657199-28b2c0c2-17b3-40f6-bf4a-15a9eb2b3e11.png) ![2](https://user-images.githubusercontent.com/65514572/148657260-a49b902a-bfde-4bef-a149-930a10342595.png) 
 ![3](https://user-images.githubusercontent.com/65514572/148657349-f689e945-1e62-4005-a0f1-a47d8c124085.png) ![4](https://user-images.githubusercontent.com/65514572/148657364-c72f5d07-83b2-44fa-8784-ca8d96c6fd7b.png)
