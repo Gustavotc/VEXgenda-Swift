@@ -40,7 +40,7 @@ Agenda de contatos personalizada, offline-first e no padrão MVVM. Integrada com
 -   [ ] RealmDb
 -   [ ] Alamofire
 
-## Executando o projeto
+## 👨‍💻 Executando o projeto
 
 Instale as dependências necessárias: 
 ```shell
