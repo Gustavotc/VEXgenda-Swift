@@ -16,7 +16,7 @@
 
   
 ## 💻 Projeto
-Agenda de contatos personalizada, offline-first e no padrão MVVM. Integrada com os contatos da conta Google por meio da PeopleAPI. Criei, edite e exclua contatos de forma totalmente sincronizada.
+Agenda de contatos personalizada, offline-first e no padrão MVVM. Integrada com os contatos da conta Google por meio da PeopleAPI. <br>Crie, edite e exclua contatos de forma totalmente sincronizada.
 
   
 ## :hammer_and_wrench: Features 
