@@ -12,25 +12,23 @@
 ![6](https://user-images.githubusercontent.com/65514572/148657373-2768e37c-8bb1-4f09-ba1b-d7ebcc2b79cd.png)
 ![7](https://user-images.githubusercontent.com/65514572/148657377-5d19fcbb-ffb8-4ac6-9af3-50bf5376992f.png)
 
+## 💻 Project
+Custom contacts agenda, offline-first and on MVVM pattern. Integrated with Google contacts via People API.<br>
+Create, edit and delete contacts in a fully syncronized way.
 
-
-  
-## 💻 Projeto
-Agenda de contatos personalizada, offline-first e no padrão MVVM. Integrada com os contatos da conta Google por meio da PeopleAPI. <br>Crie, edite e exclua contatos de forma totalmente sincronizada.
-
-  
+ 
 ## :hammer_and_wrench: Features 
 
--   [ ] Autenticação Google OAuth2;
--   [ ] Obtém contatos do usuário logado no Google (nome, telefones, emails e foto);
--   [ ] Lista os contatos do usuário;
--   [ ] Permite realizar pesquisa de contatos com sugestão;
--   [ ] Armazena contatos do usuário em banco local (RealmDB);
--   [ ] Funcionamento offline-first (alterações são salvas no banco local até serem sincronizadas na API);
--   [ ] Tratamentos de inputs com Regex e máscaras;
+-   [ ] Google OAuth2;
+-   [ ] Get the Google contacts of the logged user (name, phone numbers, emails and photo);
+-   [ ] List user contacts;
+-   [ ] Contact search with live suggestion;
+-   [ ] Store user contacts in local database (RealmDB);
+-   [ ] Offline-first (changes are saved in the local database until synchronized by the API);
+-   [ ] Inputs validations with Regex and masks;
 
 
-## ✨ Tecnologias
+## ✨ Technologies
 
 -   [ ] Swift
 -   [ ] Google OAuth2.0  
@@ -40,30 +38,29 @@ Agenda de contatos personalizada, offline-first e no padrão MVVM. Integrada com
 -   [ ] RealmDb
 -   [ ] Alamofire
 
-## 👨‍💻 Executando o projeto
+## 👨‍💻 Getting Started
 
-Instale as dependências necessárias: 
+Install de project dependencies: 
 ```shell
 pod install
 ```
 
-Lembre-se de criar o seu App no Google Cloud, com função de autenticação OAuth 2.0 e acesso a People API.
-Em seguida, substitua na classe PeopleAPi:
+Create a project on Google Cloud with OAuth 2.0 and People API access
+and make the following changes: 
  
  ```swift
+ //PeopleAPI.swift
 private let apiKey = "YOUR_API_KEY"
 ```
-E na classe OAuthService:
+
  ```swift
+//OAuthService.swift
 URLQueryItem(name: "client_id", value: "YOUR_CLIENT_ID"),
             URLQueryItem(name: "redirect_uri", value: "YOUR_REDIRECT_URI"),
 ```
 
+## 📄 License
 
-
-
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under MIT license. Check the [LICENSE](LICENSE.md) for more details.
 
 <br />
